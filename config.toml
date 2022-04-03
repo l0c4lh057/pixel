@@ -74,4 +74,4 @@ name = "logo2"
 file = "images/tum_large.png"
 startx = 1235
 starty = 1172
-priority = 2
+priority = 0
