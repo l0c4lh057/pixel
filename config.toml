@@ -21,6 +21,13 @@ version = 16
 #priority = 3
 
 [[structure]]
+name = "rwth1"
+file = "images/rwth.png"
+startx = 1333
+starty = 753
+priority = 2
+
+[[structure]]
 name = "rwth2"
 file = "images/rwth+fh-big.png"
 startx = 1332
