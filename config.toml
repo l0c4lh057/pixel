@@ -27,12 +27,12 @@ startx = 1333
 starty = 753
 priority = 4
 
-[[structure]]
-name = "rwth2"
-file = "images/rwth+fh-big.png"
-startx = 1332
-starty = 1172
-priority = 2
+#[[structure]]
+#name = "rwth2"
+#file = "images/rwth+fh-big.png"
+#startx = 1332
+#starty = 1172
+#priority = 2
 
 #[[structure]]
 #name = "hwst"
