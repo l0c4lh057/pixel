@@ -61,7 +61,7 @@ name = "logo2"
 file = "images/logo_new_canvas.png"
 startx = 1238
 starty = 1177
-priority = 5
+priority = 3
 
 # [[structure]]
 # name = "lmu"
@@ -96,7 +96,7 @@ name = "rwth1"
 file = "images/rwth+fh.png"
 startx = 1232
 starty = 1198
-priority = 3
+priority = 5
 
 [[structure]]
 name = "logo_left"
