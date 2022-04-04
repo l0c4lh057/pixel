@@ -9,8 +9,8 @@
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @require	     https://cdn.jsdelivr.net/npm/toastify-js
 // @resource     TOASTIFY_CSS https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css
-// @updateURL    https://github.com/etonaly/pixel/raw/main/placedebot.user.js
-// @downloadURL  https://github.com/etonaly/pixel/raw/main/placedebot.user.js
+// @updateURL    https://github.com/l0c4lh057/pixel/raw/main/placedebot.user.js
+// @downloadURL  https://github.com/l0c4lh057/pixel/raw/main/placedebot.user.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @grant        GM.xmlHttpRequest
@@ -169,7 +169,7 @@ async function attemptPlace() {
 }
 
 function updateOrders() {
-	fetch(`https://raw.githubusercontent.com/etonaly/pixel/main/pixel.json`, {cache: "no-store"}).then(async (response) => {
+	fetch(`https://raw.githubusercontent.com/l0c4lh057/pixel/main/pixel.json`, {cache: "no-store"}).then(async (response) => {
 		if (!response.ok) return console.warn('Bestellungen können nicht geladen werden!');
 		const data = await response.json();
 
@@ -188,11 +188,11 @@ function updateOrders() {
 		if (data?.version !== VERSION && !UPDATE_PENDING) {
 			UPDATE_PENDING = true
 			Toastify({
-				text: `NEUE VERSION VERFÜGBAR! Aktualisiere hier https://github.com/etonaly/pixel/raw/main/placedebot.user.js`,
+				text: `NEUE VERSION VERFÜGBAR! Aktualisiere hier https://github.com/l0c4lh057/pixel/raw/main/placedebot.user.js`,
 				duration: -1,
 				onClick: () => {
 					// Tapermonkey captures this and opens a new tab
-					window.location = 'https://github.com/etonaly/pixel/raw/main/placedebot.user.js'
+					window.location = 'https://github.com/l0c4lh057/pixel/raw/main/placedebot.user.js'
 				}
 			}).showToast();
 
