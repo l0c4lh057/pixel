@@ -22,9 +22,9 @@ version = 16
 
 [[structure]]
 name = "rwth1"
-file = "images/rwth.png"
-startx = 1333
-starty = 753
+file = "images/rwth+fh.png"
+startx = 1233
+starty = 1198
 priority = 4
 
 #[[structure]]
@@ -69,9 +69,9 @@ priority = 4
 #starty = 753
 #priority = 2
 
-[[structure]]
-name = "logo2"
-file = "images/tum_large.png"
-startx = 1235
-starty = 1172
-priority = 0
+#[[structure]]
+#name = "logo2"
+#file = "images/tum_large.png"
+#startx = 1235
+#starty = 1172
+#priority = 0
