@@ -23,7 +23,7 @@ version = 16
 [[structure]]
 name = "rwth1"
 file = "images/rwth+fh.png"
-startx = 1233
+startx = 1232
 starty = 1198
 priority = 4
 
